@@ -35,7 +35,9 @@ nav a {
     /* pop up giving silly message */
     
   }
-  
+  img {
+    
+  }
 
 
 
@@ -45,4 +47,8 @@ nav a {
     header {
       flex-direction: column;
     }
+resetImg {
+
+}
+
 }
