@@ -1,90 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/reset.css">
-    <link rel="stylesheet" href="./Assets/style.css" />
-    <title>Zeth's Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Zeth Satentes</h1> 
-    
-    <nav>
-        <ul>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contactme">Contact Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-          </ul>
-    </nav>
-</header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zeth Satentes's Portfolio</title>
+        <link rel="stylesheet" href="./Assets/style.css" />
+    </head>
 
-<Main>
-        
+    <body>
     
-    <div class="info">
-        <section class="aboutme" id="aboutme">
-            
-            <div class="title"><h2>About Me</h2></div>
-                <img src="https://picsum.photos/id/237/200/300" alt="suppose to be me">
-                
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, accusamus nihil fugiat suscipit sequi alias optio voluptas ut tempora at facere ab blanditiis hic? Excepturi neque odio ratione itaque quidem.</p>
-                
+        <header>
+            <div><h1>Zeth Satentes</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">My Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+      
+        <section class="hero">
+            <div>
+                <img src="picture of me" alt="Zeth selfie">
+            </div>
+           
         </section>
-        <section class="mywork" id="mywork">
+
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
+                    <br><br>
+                    Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien.
+                </p>
+            </div>
+        </section>
+
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
             <div class="title"><h2>My Work</h2></div>
             <div class = "projects-grid-wrapper">
                 <div class="projects-grid">
 
-                    <a href="#" target="_blank" class="project website">
+                    <a href="#" target="_blank" class="project surf">
                         <div class="project-label">
-                            <h3>Some Website I Designed</h3>
+                            <h3>Surf Report</h3>
+                            <p>MERN Stack</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="project ledwall">
+                        <div class="project-label">
+                            <h3>LED Wall</h3>
+                            <p>Node/IoT</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="project calculator">
+                        <div class="project-label">
+                            <h3>Calculator</h3>
+                            <p>React/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="project puzzels">
+                        <div class="project-label">
+                            <h3>Pastel Puzzels</h3>
+                            <p>MERN Stack</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank"  class="project project5">
+                        <div class="project-label">
+                            <h3>Run Buddy</h3>
                             <p>HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="Some application">
-                        <div class="project-label">
-                            <h3>An Application I Made</h3>
-                            <p>JavaScript</p>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="project software">
-                        <div class="project-label">
-                            <h3>A Program I Created</h3>
-                            <p>HTML/CSS/JavaScript</p>
-                        </div>
-                    </a>
-                 
-                    <a href="#" target="_blank"  class="project placeholder">
-                        <div class="project-label">
-                            <h3>Project 4</h3>
-                            <p>Placeholder</p>
                         </div>
                     </a>
                 </div>
             </div>
-    </section>
+        </section>
 
-</Main>
-
-
-    <footer id="contact-me">
-        <div class="title"><h2>Contact Me</h2></div>
-        <div class="content-wrapper">
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-</body>
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="mailto:zethsatentes@yahoo.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ZestyWings" target="_blank">GitHub</a>
+                        </li>
+                    
+                        <li>
+                            <p>(760) 521-4734</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
