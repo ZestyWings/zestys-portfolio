@@ -138,14 +138,14 @@ header nav ul li a {
 
 .project-surf {
 
-  background-image: url("../images/surf2.jpg");
+  background-image: url("./images/streaming-service.gif");
   background-position: 50% 15%;
   height: 100%;
   width: 100%;
 }
 
 .project-led {
-  background-image: url("../Assets/images/led.png");
+  background-image: url("./images/weather.jpeg");
   background-position: 50% 15%;
   height: 100%;
   width: 100%;
