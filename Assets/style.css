@@ -159,14 +159,14 @@ header nav ul li a {
 }
 
 .project-puzzels {
-  background-image: url("../Assets/images/puzzle.jpeg");
+  background-image: url("../Assets/images/password\ image.jpg");
   height: 100%;
   width: 100%;
 
 }
 
 .project-run {
-  background-image: url("../Assets/images/run.jpeg");
+  background-image: url("../Assets/images/notes\ image.jpg");
   background-position: 50% 50%;
 height: 100%;
 width: 100%;
